@@ -1,25 +1,18 @@
-ReadLine
+Marpa
 =======
 
-ReadLine provides a Perl 6 interface to libreadline.
-
-XXX This will probably be a frontend to ReadLine::Gnu when that's factored out.
-XXX For the moment keep all the code here in the ReadLine module.
+Marpa is a Perl 6 interfae to the libmarpa C library.
 
 Installation
 ============
 
-* Since ReadLine uses libreadline, libreadline.so.5 must be found in /usr/lib.
-To install libreadline5 on Debian for example, please use the following command:
+* Marpa requires libmarpa to be present. I'd recommend installing from packages, or just look on the libmarpa website for install instructions.
 
-```
-	sudo apt-get install libreadline5
-```
 
 * Using panda (a module management tool bundled with Rakudo Star):
 
 ```
-    panda update && panda install ReadLine
+    panda update && panda install Marpa
 ```
 
 * Using ufo (a project Makefile creation script bundled with Rakudo Star) and make:
@@ -41,7 +34,7 @@ To run tests:
 
 ## Author
 
-Jeffrey Goff, DrFOrr on #perl6, https://github.com/drforr/
+Jeffrey Goff, DrForr on #perl6, https://github.com/drforr/
 
 ## License
 
