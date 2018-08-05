@@ -4,6 +4,6 @@ use Test;
 
 plan 1;
 
-use ReadLine;
+use Marpa;
 
-ok 1, "'use ReadLine' worked!";
+ok 1, "'use Marpa' worked!";
